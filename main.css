@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0
+}
+
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2 , h3, header, form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header div h1 nav ul li a {
+    color: white;
+}
+
+#navegar {
+    padding: 16px 0;
+    background-color:rgb(15, 15, 73);
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+section {
+    color:rgb(132, 173, 209);
+}
+
+header {
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container , section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img img {
+height: 24px;
+}
+
+.img li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.loja {
+    margin-right: 32px;
+}
+
+.metododecontato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nos-acompanhe li {
+    display: inline;
+    margin-right: 8px;
+    padding-left: 8px;
+}
+
+.nos-acompanhe li a {
+    text-decoration: none;
+}
+
+.nos-acompanhe img{
+    height: 24px;
+}
+
+#informacoes .container {
+    display: block;
+}
+
+form input ,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    height: 180px;
+}
+
+section h3 {
+    margin: 16px;
+}
+
+form button {
+    background-color: rgb(20, 20, 105);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(45, 45, 161);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(20, 20, 105);;
+}
+
+footer {
+    background-color: rgb(20, 20, 105);
+    color: white;
+    padding: 16px 0;
+} 
